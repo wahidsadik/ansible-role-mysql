@@ -9,9 +9,10 @@ galaxy_info:
 
   github_branch: master
 
+  platforms:
   - name: Ubuntu
     versions:
-      - trusty
+    - trusty
 
   galaxy_tags: ['mysql']
 

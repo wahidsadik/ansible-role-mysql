@@ -11,7 +11,8 @@
   apt: name={{ item }} state=installed
   with_items:
     - mysql-server
-    - libapache2-mod-auth-mysql
+    - php5-mysql
+#    - libapache2-mod-auth-mysql
     - libmysqlclient-dev
   become: true
 
